@@ -5,6 +5,7 @@
 
 .navbar{
     display:flex;
+    margin-top: 20px;
 }
 ul{
     display: flex;
@@ -20,11 +21,14 @@ ul li a{
     }
 .sign{ 
     flex:left;
+    
 }
 #sign{
     padding:10px 10px;
     background-color: black;
     color: white;
+    margin-top: 0px;
+    margin-left: 15%;
 
 }
 #start{
@@ -99,15 +103,15 @@ display: flex;
 }
 
 .amp1{
-    margin-top:20%;
+    margin-top:0%;
     margin-left:30%;
 }
 .amp2{
-    margin-top:25%;
+    margin-top:10%;
     margin-left:-30%;
 }
 .amp3{
-    margin-top:40%;
+    margin-top:20%;
     margin-left:-30%;
 }
 #lamp1{
@@ -123,13 +127,13 @@ display: flex;
 }
 #lamp3{
   
-    width:200px;
+    width:400px;
     height: 200px;
 }
 
 .box{
     display: flex;
-    margin:20px;
+    margin-top: 0px;
 
 }
 #liv1{
@@ -174,6 +178,9 @@ display: flex;
     color:white;
     padding: 10px 10px;
     margin:20px 30px;
+}
+.cont1, .head{
+    background-color: gray;
 }
 
 
