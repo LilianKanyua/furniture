@@ -23,6 +23,15 @@ ul li a{
     flex:left;
     
 }
+.title{
+    font-size: 60px;
+}
+    .text{
+        font-size: 30px;
+    }
+    #big{
+        font-size: 37px;
+    }
 #sign{
     padding:10px 10px;
     background-color: black;
@@ -79,7 +88,7 @@ ul li a{
 }
 .img1, .img2, .img3{
     margin:20px 60px;
-    padding:20px 30px 0 20px;
+    padding:20px 30px 20px 20px;
     border: 2px solid wheat;
     background-color: white;
 
@@ -104,15 +113,15 @@ display: flex;
 
 .amp1{
     margin-top:0%;
-    margin-left:30%;
+    margin-left:20%;
 }
 .amp2{
     margin-top:10%;
-    margin-left:-30%;
+    margin-left:-20%;
 }
 .amp3{
     margin-top:20%;
-    margin-left:-30%;
+    margin-left:-20%;
 }
 #lamp1{
     width:400px;
@@ -127,13 +136,14 @@ display: flex;
 }
 #lamp3{
   
-    width:400px;
+    width:300px;
     height: 200px;
 }
 
 .box{
     display: flex;
     margin-top: 0px;
+    padding:40px 40px;
 
 }
 #liv1{
@@ -179,11 +189,33 @@ display: flex;
     padding: 10px 10px;
     margin:20px 30px;
 }
-.cont1, .head{
-    background-color: gray;
+ .head{
+    background-color: rgb(128, 128, 128, 0.4);
 }
-
-
+.sec6{
+    position:relative;
+}
+  #fin{
+      width:900px;
+      height:500px;
+  }
+.code{
+   position: absolute;
+   top:30%;
+   left:20%
+}
+.rect{
+    border:2px solid white;
+    padding:20px 30px;
+    background-color: white;
+    
+}
+#scribe{
+    text-align: end;
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+}
 .footer{
     margin:50px 50px;
     display: flex;
